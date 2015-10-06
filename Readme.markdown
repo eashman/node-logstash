@@ -409,6 +409,7 @@ Parameters :
 * ``aws_access_key_id``: your AWS Access Key Id. Required.
 * ``aws_secret_access_key``: your AWS Secret Access Key Id. Required.
 * ``polling_delay``: the long polling max delay, in seconds. Default value : 10.
+* ``secure``: Optional. Use SSL for AWS call. Default value : false.
 * ``unserializer``: Optional. Please see above. Default value to ``json_logstash``.
 
 Outputs and filter, commons parameters
@@ -668,6 +669,7 @@ Example :
 Parameters :
 * ``aws_access_key_id``: your AWS Access Key Id. Required.
 * ``aws_secret_access_key``: your AWS Secret Access Key Id. Required.
+* ``secure``: Optional. Use SSL for AWS call. Default value : false.
 * ``serializer``: Optional. Please see above. Default value to ``json_logstash``.
 
 Filters
